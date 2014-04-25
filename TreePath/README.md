@@ -58,8 +58,8 @@ Enter Option by the number given
 Enter path
 /scopley/ab-cd/zz
 
-scopley	
-cd	ab	ab-cd	
+scopley     
+cd	ab	ab-cd       
 gh	ef	ef-gh	gh	ef	ef-gh	gh	ef	ef-gh	zz              //zz added under /scopley/ab-cd
 
 
