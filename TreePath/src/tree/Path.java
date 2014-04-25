@@ -9,7 +9,14 @@ import java.util.Queue;
 
 public class Path {
 	String p;
+	public Path() {
+		p=null;
+	}
 	public Path(String ip) {
+		p=ip;
+	}
+	
+	public void add(String ip){
 		p=ip;
 	}
 
@@ -34,6 +41,8 @@ public class Path {
 
 				
 		}
+	//	System.out.println(pathnodes);
+	//	System.exit(0);
 		return pathnodes;
 	}
 	
