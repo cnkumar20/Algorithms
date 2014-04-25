@@ -12,13 +12,13 @@ How to Run:
 
 Compile the code and then 
 
-java Main
-Enter the Path                     //perform insertion any ways burst mode or one by one
-1: Give Path to insert            //if node already present doesn't create duplicate  
-2: Collapse                       //if give path is not present it create from where the mismatch is
-3: Subtree Detection
-4: Exit
-Enter Option by the number given
+java Main<br />
+Enter the Path<br />                     //perform insertion any ways burst mode or one by one
+1: Give Path to insert<br />            //if node already present doesn't create duplicate  
+2: Collapse<br />                       //if give path is not present it create from where the mismatch is
+3: Subtree Detection<br />
+4: Exit<br />
+Enter Option by the number given<br />
 1
 Enter Path
 /sopley
