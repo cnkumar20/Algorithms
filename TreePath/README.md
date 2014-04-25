@@ -13,23 +13,23 @@ How to Run:
 Compile the code and then 
 
 java Main<br />
-Enter the Path<br />                     //perform insertion any ways burst mode or one by one
-1: Give Path to insert<br />            //if node already present doesn't create duplicate  
-2: Collapse<br />                       //if give path is not present it create from where the mismatch is
+Enter the Path                     //perform insertion any ways burst mode or one by one <br />
+1: Give Path to insert            //if node already present doesn't create duplicate  <br />
+2: Collapse                       //if give path is not present it create from where the mismatch is<br />
 3: Subtree Detection<br />
 4: Exit<br />
 Enter Option by the number given<br />
-1
-Enter Path
-/sopley
-scopley
-
-Enter the Path            
-1: Give Path to insert
-2: Collapse
-3: Subtree Detection
-4: Exit
-Enter Option by the number given
+1<br />
+Enter Path<br />
+/sopley<br />
+scopley<br />
+<br />
+Enter the Path<br />            
+1: Give Path to insert<br />
+2: Collapse<br />
+3: Subtree Detection<br />
+4: Exit<br />
+Enter Option by the number given<br />
 1
 Enter path
 
