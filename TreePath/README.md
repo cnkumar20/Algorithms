@@ -4,7 +4,7 @@ README Tree Path
 /bin/tree : Node.class - Node implemetation
             path.class - This is path generator , creates list of combination paths from the user input path
             Tree.class - This has the Tree algorithms implemented to insert,collapse,find synonym tree
-          
+       <br />
           
 /src : Source Code for .java extension for the above files 
 
