@@ -30,49 +30,49 @@ Enter the Path<br />
 3: Subtree Detection<br />
 4: Exit<br />
 Enter Option by the number given<br />
-1
-Enter path
+1<br />
+Enter path<br />
 
-/scopley/ab|cd/ef|gh                        //insertion using "|" expression
+/scopley/ab|cd/ef|gh                        //insertion using "|" expression<br />
+<br />
+scopley<br />	
+cd	ab	ab-cd<br />	
+gh	ef	ef-gh	gh	ef	ef-gh	gh	ef	ef-gh<br />	
 
-scopley	
-cd	ab	ab-cd	
-gh	ef	ef-gh	gh	ef	ef-gh	gh	ef	ef-gh	
-
-1: Give Path to insert
-2: Collapse                //Perform collapse operation
-3: Subtree Detection
-4: Exit
-Enter Option by the number given
-2
-/scopley/ab|cd/ef|gh
-
-
-Enter the Path
-1: Give Path to insert
-2: Collapse
-3: Subtree Detection
-4: Exit
-Enter Option by the number given
-1
-Enter path
-/scopley/ab-cd/zz
-
-scopley     
-cd	ab	ab-cd       
-gh	ef	ef-gh	gh	ef	ef-gh	gh	ef	ef-gh	zz              //zz added under /scopley/ab-cd
+1: Give Path to insert<br />
+2: Collapse                //Perform collapse operation<br />
+3: Subtree Detection<br />
+4: Exit<br />
+Enter Option by the number given<br />
+2<br />
+/scopley/ab|cd/ef|gh<br />
 
 
-Enter the Path
-1: Give Path to insert
-2: Collapse
-3: Subtree Detection                                     //subtree, print synonyms
-4: Exit
-Enter Option by the number given
-3
-Enter path
-/scopley/ab
-[/scopley/cd, /scopley/ab]          ///because these two have same child nodes ie ef|gh , /scopley/ab-cd missed out                                          ///because it has zz under which makes it different
+Enter the Path<br />
+1: Give Path to insert<br />
+2: Collapse<br />
+3: Subtree Detection<br />
+4: Exit<br />
+Enter Option by the number given<br />
+1<br />
+Enter path<br />
+/scopley/ab-cd/zz<br />
+<br />
+scopley<br />     
+cd	ab	ab-cd<br />       
+gh	ef	ef-gh	gh	ef	ef-gh	gh	ef	ef-gh	zz              //zz added under /scopley/ab-cd<br />
+<br />
+<br />
+Enter the Path<br />
+1: Give Path to insert<br />
+2: Collapse<br />
+3: Subtree Detection<br />                                     //subtree, print synonyms
+4: Exit<br />
+Enter Option by the number given<br />
+3<br />
+Enter path<br />
+/scopley/ab<br />
+[/scopley/cd, /scopley/ab]          ///because these two have same child nodes ie ef|gh , /scopley/ab-cd missed out<br />                                          ///because it has zz under which makes it different<br />
 
 
 
