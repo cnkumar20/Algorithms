@@ -10,7 +10,7 @@ public class Animal {
 	}
 	
 	public void printDetails() {
-		System.out.println("Animal Class"+ "Name : "+ name + "Type :" + type);
+		System.out.println("Animal Class"+ " Name : "+ name + " Type : " + type);
 	}
 
 }

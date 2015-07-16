@@ -10,6 +10,6 @@ public class Horse extends Animal {
 	}
 	
 	public void printDetails() {
-		System.out.println("Horse Class"+" Name :"+name+" Color:"+color);
+		System.out.println("Horse Class"+" Name : "+name+" Color: "+color);
 	}
 }
